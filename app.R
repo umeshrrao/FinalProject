@@ -197,7 +197,7 @@ ui <- dashboardPage(skin="red",
                                                                 column(4,
                                                                        selectInput(
                                                                          "SelectX",
-                                                                         label = "Select variables:",
+                                                                         label = "Select variables:include color for filtering preditions",
                                                                          choices = names(raw_df),
                                                                          #selected = names(raw_df)[3],
                                                                          multiple = TRUE
@@ -288,7 +288,8 @@ ui <- dashboardPage(skin="red",
 server <- function(input, output,session) {
   #-------------------------About----------------------
   output$myImage <- renderImage({
-    filename <- normalizePath(file.path('/Users/umerao/Desktop/SASHomeWIN/images','Diamonds.jpg'))
+    #filename <- normalizePath(file.path('/Users/umerao/Desktop/SASHomeWIN/images','Diamonds.jpg'))
+    filename <- normalizePath(file.path('./images','Diamonds.jpg'))
     # Return a list containing the filename
     list(src = filename, contentType = 'image/jpeg', width = 280, height = 400,alt = "Alternate text")
   })

@@ -12,7 +12,7 @@ This app provides 4 tabs
 
 ## Data Exploration Tab:- 
 
-Create numerical and graphical summaries". Change the type of plot shown and type of summary reported.Change the variables and filter the rows to change the data used in the plots/summaries.
+Create numerical and graphical summaries. Change the type of plot shown and type of summary reported.Change the variables and filter the rows to change the data used in the plots/summaries.
 
 ## Modeling Tab:-
 
@@ -26,11 +26,11 @@ Explains these three modeling approaches, the benefits of each,and the drawbacks
 
 ### Model Fitting tab:
 
-Gives the ability to split the data into a training and test set by being able to choose the proportion of data used in each.The user can choose the model settings for each model. For all models, they can select the variables used as predictors.The user can press a button and fit all three models on the training data.· Fit statistics (such as RMSE) on the training data is reported for each model on the mainpanel along with summary of the fit 
+Gives the ability to split the data into a training and test set by being able to choose the proportion of data used in each.The user can choose the model settings for each model. For all models, they can select the variables used as predictors.The user can press a button and fit all three models on the training data.· Fit statistics (such as RMSE) on the training data is reported for each model on the mainpanel along with summary of the fit. Please note the default model selects all predictor variables, the user can subset the variables to generate statistics. In order to do custom prediction it is mandatory to select color as this is to demonstrate the prediction of specific value of color
 
 ### Prediction tab:
 
-The user can choose any one of the models for prediction. They can select the values of the predictors and obtain a prediction for the response.
+The user can choose any one of the models for prediction. They can select the values of the predictors(color) and obtain a prediction for the response. Here we are using only the MLR model for demonstration purpose
 
 
 ## Data Tab:- 
