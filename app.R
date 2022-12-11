@@ -184,7 +184,7 @@ ui <- dashboardPage(skin="red",
                                                                h6("Use a random subset of predictors for each bootstrap sample/tree fit")                                                           )
                                                   )
                                                 )),
-                                                tabPanel("Modeling",
+                                                tabPanel("Model Data",
                                                          fluidPage(
                                                            sidebarPanel(sliderInput(
                                                              "Slider1",
