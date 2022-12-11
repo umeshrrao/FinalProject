@@ -39,17 +39,28 @@ The user can Scroll through the data set.Subset this data set (rows and columns)
 
 # Packages used
 
-library(shiny)
-library(shinydashboard)
-library(maps)
-library(dplyr)
-library(leaflet)
-library(shinycssloaders)
-library(shinythemes)
-library(rio)
-library(DT)
-library(stargazer)
-library(randomForest)
+* library(shiny)
+
+* library(shinydashboard)
+
+* library(maps)
+
+* library(dplyr)
+
+* library(leaflet)
+
+* library(shinycssloaders)
+
+* library(shinythemes)
+
+* library(rio)
+
+* library(DT)
+
+* library(stargazer)
+
+* library(randomForest)
+
     
 # Use the following code to run the app
 
